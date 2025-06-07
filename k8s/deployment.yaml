@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: taskmanager-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: taskmanager
+  template:
+    metadata:
+      labels:
+        app: taskmanager
+    spec:
+      containers:
+      - name: taskmanager
+        image: aslin-taskmanager:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8082
+        env:
+        - name: SPRING_DATA_MONGODB_URI
+          value: mongodb://mongo-service:27017/taskdb

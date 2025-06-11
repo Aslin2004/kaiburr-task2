@@ -7,7 +7,7 @@
 - Exposed app on NodePort `30082`
 - Connected Spring Boot app with in-cluster MongoDB using service name
 - Tested with Postman (`/tasks`)
-- Attempted `/run` endpoint using Kubernetes Java client (not working due to 400 error)
+
 
 ## Screenshots
 

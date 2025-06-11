@@ -1,6 +1,6 @@
 # Kaiburr Task 2 - Kubernetes 
 
-## ✅ What was done
+## What was done
 
 - Dockerized Spring Boot app
 - Deployed Spring Boot & MongoDB in Kubernetes (Docker Desktop)
@@ -9,7 +9,7 @@
 - Tested with Postman (`/tasks`)
 - Attempted `/run` endpoint using Kubernetes Java client (not working due to 400 error)
 
-## 🧪 Screenshots
+## Screenshots
 
 Located in `/screenshots/` folder:
 - put_task.png
@@ -21,5 +21,5 @@ Located in `/screenshots/` folder:
 
 ---
 
-Submitted by: **Aslin A**  
-Date: **7 June 2025**
+Submitted by: Aslin A  
+Date: 7 June 2025
